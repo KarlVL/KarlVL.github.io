@@ -1,4 +1,110 @@
-h1{
-    border: 5px solid red;
-    font-size: xx-small;
-}
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://images.pexels.com/photos/242236/pexels-photo-242236.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-size: 10px 10px;
+    background-repeat: repeat;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  #title {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/green_cup.png);
+    background-size: 10px 10px;
+    background-repeat: repeat;
+    height: 80px;
+    border-bottom: 15px solid gray;
+    margin-top: -10px;
+    font-family: "Great Vibes", cursive;
+    font-size: 60px;
+  }
+  @media (max-width: 570px) {
+    #title {
+      font-size: 25px;
+    }
+  }
+  #navbar {
+    width: 100%;
+    margin: -60px 0 0 0;
+  }
+  #nav-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    list-style-type: none;
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/green_cup.png);
+    background-size: 10px 10px;
+    background-repeat: repeat;
+    border-bottom: 15px solid gray;
+  }
+  .navList {
+    margin: 7px 13px 7px 13px;
+  }
+  li a {
+    fill: none; /* Even for text, SVG use fill over color */
+    text-decoration: none;
+    color: white;
+  }
+  #homeBttn {
+    margin: 7px;
+  }
+  #imgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 100%;
+    max-width: 100%;
+  }
+  #harrHouse {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    border: 4px solid gray;
+  }
+  #mainTxt p {
+    font-family: "Lato", "sans-serif";
+    color: #787878;
+    font-size: 13px;
+    line-height: 19px;
+  }
+  h3 {
+    font-family: "Lato", "sans-serif";
+    color: #3a3636;
+    font-size: 18px;
+    line-height: 19px;
+    font-weight: bold;
+  }
+  h2 {
+    font-family: "Lato", "sans-serif";
+    color: #1d1a1a;
+    font-size: 24px;
+    line-height: 19px;
+    font-weight: bold;
+  }
+  #mainTxt {
+    max-width: 80%;
+    margin-left: 50px;
+  }
+  #form {
+    display: flex;
+    float: left;
+    border: 3px solid black;
+    border-radius: 7px;
+    align-self: flex-start;
+    margin-left: 50px;
+    margin-top: 18px;
+    margin-right: 5px;
+    background-color: #787878;
+  }
+  input {
+    margin: 5px;
+  }
+  #mainBody {
+    margin-top: 30px;
+  }
