@@ -69,6 +69,19 @@ body {
     height: auto;
     border: 4px solid gray;
   }
+  #imgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 100%;
+    max-width: 100%;
+  }
+  #harrHouse {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    border: 4px solid gray;
+  }
   #mainTxt p {
     
     color: #787878;
