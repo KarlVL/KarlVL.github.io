@@ -6,6 +6,7 @@ body {
     background-repeat: repeat;
     margin-left: 0;
     margin-right: 0;
+    font-family: "Lato", "sans-serif";
   }
   #title {
     display: flex;
@@ -20,6 +21,7 @@ body {
     margin-top: -10px;
     font-family: "Great Vibes", cursive;
     font-size: 60px;
+    
   }
   @media (max-width: 570px) {
     #title {
@@ -54,21 +56,21 @@ body {
   #homeBttn {
     margin: 7px;
   }
-  #imgs {
+  #brkroomWrap {
     display: flex;
     justify-content: center;
     align-items: center;
     max-height: 100%;
     max-width: 100%;
   }
-  #harrHouse {
+  #brkroom {
     max-width: 100%;
     display: block;
     height: auto;
     border: 4px solid gray;
   }
   #mainTxt p {
-    font-family: "Lato", "sans-serif";
+    
     color: #787878;
     font-size: 13px;
     line-height: 19px;
@@ -91,6 +93,13 @@ body {
     max-width: 80%;
     margin-left: 50px;
   }
+  #mainBrk {
+    max-width: 80%;
+    margin-left: 50px;
+    display:flex;
+    flex-direction:column;
+    padding-right:25px;
+  }
   #form {
     display: flex;
     float: left;
@@ -107,4 +116,52 @@ body {
   }
   #mainBody {
     margin-top: 30px;
+    
+  }
+  @media (min-width: 1000px) {
+    #mainBody {
+      
+      margin-left:50px;
+    }
+  }
+  #mainBodyBrk {
+    margin-top: 30px;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+  }
+  @media (min-width: 1000px) {
+    #mainBodyBrk {
+      
+      margin-left:50px;
+    }
+  }
+  #details{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    flex-wrap:wrap;
+  }
+  .imageDetails{
+    height:176px;
+    width:250px;
+    border-radius:20px;
+  }
+  .inDetails{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    width:250px;
+    margin:2px;
+  }
+  button {
+    background-color:gray;
+    border-radius:5px;
+    font-family: "Lato", "sans-serif";
+    font-weight: bold;
+    color:white;
+  }
+  #contact{
+    margin-left:50px;
   }
