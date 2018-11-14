@@ -18,7 +18,7 @@
       <li class='navList'><a href='#'>BOOK ONLINE</a></li>
       <li class='navList'><a href='offers.html'>TARRIF'S & OFFERS</a></li>
       <li class='navList'><a href='HarrBreak.html'>BREAKFAST</a></li>
-      <li class='navList'><a href='Attractions.html'>ATTRACTIONS</a></li>
+      <li class='navList'><a href='#'>ATTRACTIONS</a></li>
       <li class='navList'><a href='#'>CONTACT & LOCATION</a></li>
       <li class='navList'><a href='#'>REVIEWS</a></li>
     </ul>

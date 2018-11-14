@@ -8,23 +8,31 @@
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/code.js"></script>
 <body>
   <h1 id='title'>Harringtons At Fourteen</h1>
   <nav id='navbar'>
     <ul id='nav-list'>
-      <li class='navList' id='homeBttn'><i class="fas fa-home fa-2x"></i></li>
-      <li class='navList'><a href='#'>ROOMS</a></li>
+      <li class='navList' id='homeBttn'><a href='index.html'><i class="fas fa-home fa-2x"></i></a></li>
+      <li class='navList'><a href='Rooms.html'>ROOMS</a></li>
       <li class='navList'><a href='#'>BOOK ONLINE</a></li>
-      <li class='navList'><a href='#'>TARRIF'S & OFFERS</a></li>
+      <li class='navList'><a href='offers.html'>TARRIF'S & OFFERS</a></li>
       <li class='navList'><a href='HarrBreak.html'>BREAKFAST</a></li>
-      <li class='navList'><a href='#'>ATTRACTIONS</a></li>
+      <li class='navList'><a href='Attractions.html'>ATTRACTIONS</a></li>
       <li class='navList'><a href='#'>CONTACT & LOCATION</a></li>
       <li class='navList'><a href='#'>REVIEWS</a></li>
     </ul>
   </nav>
-  <div id='imgs'>
-    <img src="http://harringtonsatfourteen.co.uk/images/slider/harring1.jpg" alt="Harrington House" id='harrHouse'>
+  <div id='imgWrap'>
+    <div id='mainImgWrap'>
+      <img src='http://harringtonsatfourteen.co.uk/images/slider/harring1.jpg' id='big'>
+    </div>
+    <div id='imgRow'>
+     <img src='http://harringtonsatfourteen.co.uk/images/slider/homepagethumb.jpg' class='thumb' id='one'>
+     <img src='http://harringtonsatfourteen.co.uk/images/slider/homeroomthumb.jpg' class='thumb' id='two'>
+     <img src='http://harringtonsatfourteen.co.uk/images/slider/homeviewthumb.jpg' class='thumb' id='three'>
+    </div>
   </div>
   <div id='mainBody'>
     <div id='form'>
