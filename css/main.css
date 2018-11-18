@@ -210,21 +210,23 @@ body {
     justify-content: start;
     align-items: start;
     align-self: start;
-    max-width: 100%;
+    max-width: 450px;
+    
   }
   .mainImgWrapRoom{
     display: flex;
     justify-content: center;
     align-items: center;
     max-height: 100%;
-    max-width: 450px;
+    max-width: 90%;
     border:4px solid gray;
     border-radius: 3px;
     margin:5px;
   }
   #bigRoom{
     max-width: 100%;
-    display: block;
+    max-height:500px;
+    display: flex;
     height: auto; 
   }
   .imgRowRoom{

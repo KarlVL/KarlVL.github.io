@@ -12,15 +12,13 @@ $( "#three" ).click(function() {
   $('#big').attr('src',three)
 });
 console.log('hello');
+
 $( ".thumbRoom" ).click(function() {
-  console.log(this);
-  $('#bigRoom').attr('src',one)
+  console.log($(this).parents('div.imgWrapRoom').children('div.mainImgWrapRoom').children());
+  $(this).parents('div.imgWrapRoom').children('div.mainImgWrapRoom').children().attr('src',this.src);
 });
-$( ".thumbRoom" ).click(function() {
-  console.log(this.src);
+/*$( ".thumbRoom" ).click(function() {
+  console.log($(this).parents('#room5Img'));
   $('#bigRoom').attr('src',this.src)
-});
-$( "#three" ).click(function() {
-  $('#big').attr('src',three)
-});
+});*/
 });
