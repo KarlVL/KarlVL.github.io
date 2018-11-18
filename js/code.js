@@ -12,4 +12,15 @@ $( "#three" ).click(function() {
   $('#big').attr('src',three)
 });
 console.log('hello');
+$( ".thumbRoom" ).click(function() {
+  console.log(this);
+  $('#bigRoom').attr('src',one)
+});
+$( ".thumbRoom" ).click(function() {
+  console.log(this.src);
+  $('#bigRoom').attr('src',this.src)
+});
+$( "#three" ).click(function() {
+  $('#big').attr('src',three)
+});
 });

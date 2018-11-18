@@ -178,10 +178,75 @@ body {
   }
   #roomList{
     display:flex;
-    flex-direction: column;
+    flex-direction:column;
+    max-width:70%;
+    align-content: center;
+    /*background: rgb(163, 146, 125);
+    border-radius: 10px;*/
   }
   .roomDetails{
     display:flex;
+    flex-direction: column;
+    margin:10px;
+    border:2px solid bisque;
+    border-radius: 5px;
+    background: rgba(245, 245, 245, 1);
+    color: rgb(120, 120, 120);
+  }
+  .roomTitle{
+    background: rgb(221, 221, 221);
+    margin:0;
+    padding:10px;
+    border-bottom: 1px solid bisque;
+  }
+  .subTitle{
+    margin:0;
+    padding:10px;
+  }
+  .imgWrapRoom{
+    display: flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    justify-content: start;
+    align-items: start;
+    align-self: start;
+    max-width: 100%;
+  }
+  .mainImgWrapRoom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 100%;
+    max-width: 450px;
+    border:4px solid gray;
+    border-radius: 3px;
+    margin:5px;
+  }
+  #bigRoom{
+    max-width: 100%;
+    display: block;
+    height: auto; 
+  }
+  .imgRowRoom{
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: start;
+    align-items: start;
+    max-height: 100%;
+    max-width: 450px;
+  }
+  .thumbRoom{
+    max-width: 100px;
+    display: block;
+    height: auto;
+    margin:5px;
+    border:2px solid gray;
+    border-radius:3px;
+  }
+  .roomImgList{
+    display:flex;
+    flex-direction: row;
   }
   #imgWrap{
     display: flex;
@@ -239,21 +304,38 @@ body {
     flex-direction:column;
     max-width:70%;
     align-content: center;
-    border:3px solid red;
+    /*background: rgb(163, 146, 125);
+    border-radius: 10px;*/
+  }
+  @media (max-width: 570px) {
+    #attractionListWrap {
+      max-width:100%;
+    }
+    #roomList{
+      max-width: 100%;
+    }
   }
   .attractionItem{
     display:flex;
     flex-direction: column;
+    margin:10px;
+    border:2px solid bisque;
+    border-radius: 5px;
+    background: rgba(245, 245, 245, 1);
+    color: rgb(120, 120, 120);
+
   }
   .attractionTitle{
-    background: beige;
+    background: rgb(221, 221, 221);
     margin:0;
+    padding:10px;
+    border-bottom: 1px solid bisque;
   }
   .attractionImg{
     max-width: 100%;
     display: block;
     height: auto;
-    border: 2px solid gray;
+    border: 1px solid gray;
   }
   .attractionImgWrap{
     display: flex;
@@ -261,4 +343,8 @@ body {
     align-items: center;
     max-height: 100%;
     max-width: 100%;
+    padding: 10px;
+  }
+  .attractionText{
+    padding:10px;
   }
