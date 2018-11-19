@@ -1,3 +1,4 @@
+
 body {
     display: flex;
     flex-direction: column;
@@ -55,6 +56,10 @@ body {
   }
   #homeBttn {
     margin: 7px;
+  }
+  #contact{
+    margin-left: auto;
+    margin-right:15px;
   }
   #brkroomWrap {
     display: flex;
@@ -183,6 +188,7 @@ body {
     align-content: center;
     /*background: rgb(163, 146, 125);
     border-radius: 10px;*/
+    margin-left: 50px;
   }
   .roomDetails{
     display:flex;
@@ -350,4 +356,19 @@ body {
   }
   .attractionText{
     padding:10px;
+  }
+  footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(http://harringtonsatfourteen.co.uk/images/bg.jpg);
+    margin-top:auto;
+    
+    
+  }
+  footer p{
+    text-align: center;
+    color: #787878;
+    font-size: 13px;
+    line-height: 19px;
   }
